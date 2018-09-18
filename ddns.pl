@@ -1,24 +1,15 @@
 #!/usr/bin/perl
-# -------------------------------------------------------------------------------
-# neobitti_update_ip.pl
-#
-# Version 1.0 - 16.01.2012
-#
-# PERL script to dynamically update the IP of a host via the cPanel-API. This
-# script was written to work with the Finnish hoster Neobitti but it might work
-# with other hosters which use cPanel too.
-#
-# Copyright (C) 2012 Stefan Gofferje - http://stefan.gofferje.net/
-#
+# PERL script to dynamically update the IP of a host via the cPanel-API.
+# to use this:  1) you need a CPanel
+# 		2) you need a domain name
+# Use this if you want to host a domain but have dynamic IP.
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License as
 # published by the Free Software Foundation; either version 2 of the
 # License, or (at your option) any later version.
 #
 # This program is distributed in the hope that it will be useful, but
-# WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-# General Public License for more details.
+# WITHOUT ANY WARRANTY;
 #
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
